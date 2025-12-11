@@ -1,0 +1,19 @@
+global Tc sigma2e am bm wr gx gr gphi R p l0 k0 a0 b0 c0 bb0 theta0 ke
+Tc = 0.1;
+sigma2e = 0;
+am = -4;
+bm = 4;
+a0 = -2;
+b0 = 1;
+c0 = 1;
+wr = 0.25;
+gx = 0.0005;
+gr = 0.0005;
+gphi = 0.1;
+R = 0.15;
+p = -1/(2*am);
+l0 = 0;
+k0 = 0;
+bb0 = -1;
+theta0 = 0;
+ke = 10;
