@@ -1,0 +1,9 @@
+function u = miac_con2(in)
+yf = in(6);
+dyrf = in(5);
+yrf = in(4);
+wp = in(1:3);
+ff = yrf*wp(2) + dyrf*wp(3);
+fb = wp(1)*(yrf - yf);
+e = yrf - yf
+u = ff + fb;
